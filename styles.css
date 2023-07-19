@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("car-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 20px 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.text-event {
+  height: 250px;
+  transform: rotate(5deg);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.avatar {
+  height: 75px;
+}
+
+.link-container {
+  text-align: center;
+  width: 100%;
+}
+
+a.button {
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #E86A1E;
+  border: 5px solid #292929;
+  color: #292929;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px; /* Adjust the value to modify the shape */
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+  background-color: #292929;
+  border: 5px solid #E86A1E;
+  color: #E86A1E;
+}
