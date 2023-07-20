@@ -1,2 +1,2 @@
 # wjaor
-![image](/assets/images/your-image.jpg)
+![image](/assets/images/wjaor-white.jpg)
